@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+  <link rel="stylesheet" href="scene.css">
+  <script type="text/javascript" src=scene.js> </script>
+</head>
+
+<body onload="startScene()" onscroll="updateNoise()">
+
+<div class="flex-container" id="container_f" onclick="printScrollPosition()">
+  <div><img src="img/mechanic.png" alt="chester" id="chester" class="persona" onmouseover="Interview(this)" onmouseout="pauseInterview(this)" ></div>
+  <div><img src="img/nebokeh.png" alt="nebokeh" id="nebokeh" class="persona" onmouseover="Interview(this)" onmouseout="pauseInterview(this)"></div>
+  <div><img src="img/hannahvivien.png" alt="hannahvivien" id="hannahvivien" class="persona" onmouseover="Interview(this)" onmouseout="pauseInterview(this)"></div>
+  <div><img src="img/netto.png" alt="tom" id="tom" class="persona" onmouseover="Interview(this)" onmouseout="pauseInterview(this)"></div>
+  <div><img src="img/punk.png" alt="krat" id="krat" class="persona" onmouseover="Interview(this)" onmouseout="pauseInterview(this)"></div>
+</div>
+
+<!--
+<audio autoplay id="workshop_noise">
+  <source src="sound/werkstatt.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+-->
+
+<audio muted id="krat_interview">
+  <source src="sound/krat/stattdessen_sammeln_wir_schrott.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>

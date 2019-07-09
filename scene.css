@@ -1,0 +1,71 @@
+body {
+/**  background-image: url("img/background1.png");
+  background-size: cover;**/
+  height: 100%;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.flex-container{
+  height: 40%;
+  width: 380%;
+  display: flex;
+/**  border: solid;
+  border-color: blue;**/
+}
+
+.persona{
+  padding-left: 50px;
+  padding-right: 80px;
+ /** border: solid;
+  border-color: red; **/
+}
+
+#chester{
+  width: 20%;
+  position: relative;
+  top: 31%;
+  margin-left: 900px;
+}
+
+#nebokeh{
+  width: 40%;
+  position: relative;
+  top: 20%;
+  margin-left: 230px;
+  padding-right: 0px;
+}
+
+#hannahvivien{
+  width: 80%;
+  height: auto;
+  position: relative;
+  bottom:-20%;
+  left: -20%;
+  padding-left: -80px;
+}
+
+#tom{
+  width: 45%;
+  height: auto;
+  position: relative;
+  bottom: -20%;
+  padding: 2px;
+  padding-left:50px;
+}
+
+#krat{
+  width: 76%;
+  height: auto;
+  position: relative;
+  bottom: -4%;
+}
